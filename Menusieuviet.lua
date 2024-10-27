@@ -519,6 +519,7 @@ game.Players.PlayerAdded:Connect(function(v)
     end
     coroutine.wrap(lineesp)()
 end)
+end)
 
 HomeTab:Button("Eps Name ", function(v)
 local esp_settings = { 
